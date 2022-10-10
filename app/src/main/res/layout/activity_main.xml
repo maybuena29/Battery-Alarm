@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:clipChildren="false">
+
+        <FrameLayout
+            android:id="@+id/myFrame"
+            android:layout_width="match_parent"
+            android:layout_height="271dp"
+            android:background="@drawable/blue_bg">
+
+            <ImageView
+                android:id="@+id/myImgView"
+                android:layout_width="140dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/alarmlogo"/>
+
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="36.7dp"
+            android:layout_marginRight="20dp"
+            android:clipChildren="false">
+
+            <TextView
+                android:id="@+id/mainTitle"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:gravity="right"
+                android:text="BATTERY \nALARM"
+                android:fontFamily="@font/aquire_bold"
+                android:textSize="65dp"
+                android:textColor="@color/blue"/>
+
+        </RelativeLayout>
+
+        <!--<RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="36.7dp"
+            android:layout_marginRight="45dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:gravity="center"
+                android:text="Welcome"
+                android:fontFamily="@font/aquire"
+                android:textSize="20dp"
+                android:textColor="@color/blue"/>
+
+        </RelativeLayout>-->
+
+    </LinearLayout>
+
+</RelativeLayout>
