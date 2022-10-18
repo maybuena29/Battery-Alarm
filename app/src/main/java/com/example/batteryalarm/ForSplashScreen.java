@@ -8,7 +8,7 @@ import android.os.Handler;
 
 public class ForSplashScreen extends AppCompatActivity {
 
-    private final int delay_time = 4000;
+    private final int delay_time = 1000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
