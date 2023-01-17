@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Battery Alarm</string>
+<<<<<<< HEAD
 </resources>
+=======
+    <string name="ringtone">Select Ringtone</string>
+</resources>
+>>>>>>> 9670caf2a098fdbf3193f08c24b38d87d2011a69

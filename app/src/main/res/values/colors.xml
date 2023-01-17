@@ -9,4 +9,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="gray">#8C8C8C</color>
     <color name="blue">#1766E0</color>
+<<<<<<< HEAD
+=======
+    <color name="red">#D31657</color>
+>>>>>>> 9670caf2a098fdbf3193f08c24b38d87d2011a69
 </resources>

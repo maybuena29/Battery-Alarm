@@ -205,12 +205,23 @@ public class MainActivity extends AppCompatActivity {
         RingtoneManager manager = new RingtoneManager(this);
         manager.setType(RingtoneManager.TYPE_RINGTONE);
         Cursor cursor = manager.getCursor();
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9670caf2a098fdbf3193f08c24b38d87d2011a69
         Map<String, String> list = new HashMap<>();
         while (cursor.moveToNext()) {
             String notificationTitle = cursor.getString(RingtoneManager.TITLE_COLUMN_INDEX);
             String notificationUri = cursor.getString(RingtoneManager.URI_COLUMN_INDEX) + "/" + cursor.getString(RingtoneManager.ID_COLUMN_INDEX);
+<<<<<<< HEAD
             list.put(notificationTitle, notificationUri);
         }
+=======
+
+            list.put(notificationTitle, notificationUri);
+        }
+
+>>>>>>> 9670caf2a098fdbf3193f08c24b38d87d2011a69
         return list;
     }*/
 

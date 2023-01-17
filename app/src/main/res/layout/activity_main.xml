@@ -103,7 +103,11 @@
             android:layout_marginLeft="45dp"
             android:layout_marginTop="-100dp"
             android:layout_marginRight="45dp"
+<<<<<<< HEAD
             android:background="@drawable/blue_border_rounded_corner">
+=======
+            android:background="@drawable/blue_border_rounded_cornwe">
+>>>>>>> 9670caf2a098fdbf3193f08c24b38d87d2011a69
 
             <EditText
                 android:id="@+id/batteryInput"
@@ -140,7 +144,11 @@
             android:layout_marginLeft="45dp"
             android:layout_marginTop="25dp"
             android:layout_marginRight="45dp"
+<<<<<<< HEAD
             android:background="@drawable/blue_border_rounded_corner">
+=======
+            android:background="@drawable/blue_border_rounded_cornwe">
+>>>>>>> 9670caf2a098fdbf3193f08c24b38d87d2011a69
 
             <!--<Spinner
                 android:id="@+id/spinRingtone"
@@ -190,7 +198,11 @@
             android:layout_marginLeft="45dp"
             android:layout_marginTop="25dp"
             android:layout_marginRight="45dp"
+<<<<<<< HEAD
             android:background="@drawable/blue_border_rounded_corner">
+=======
+            android:background="@drawable/blue_border_rounded_cornwe">
+>>>>>>> 9670caf2a098fdbf3193f08c24b38d87d2011a69
 
             <Button
                 android:id="@+id/btnStartAlarm"
@@ -214,7 +226,11 @@
             android:layout_marginLeft="45dp"
             android:layout_marginTop="25dp"
             android:layout_marginRight="45dp"
+<<<<<<< HEAD
             android:background="@drawable/blue_border_rounded_corner">
+=======
+            android:background="@drawable/blue_border_rounded_cornwe">
+>>>>>>> 9670caf2a098fdbf3193f08c24b38d87d2011a69
 
             <Button
                 android:id="@+id/btnStopAlarm"
