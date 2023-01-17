@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="273dp"
+            android:background="@drawable/blue_bg">
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/alarmlogo"/>
+
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:text="LOGIN"
+                android:fontFamily="@font/aquire_bold"
+                android:textSize="50dp"
+                android:textColor="@color/blue"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:gravity="center"
+                android:text="Please Login First"
+                android:fontFamily="@font/aquire"
+                android:textSize="20dp"
+                android:textColor="@color/blue"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="45dp"
+            android:background="@drawable/blue_border_rounded_corner">
+
+            <EditText
+                android:id="@+id/edtUser"
+                android:layout_width="match_parent"
+                android:background="@android:color/transparent"
+                android:layout_height="200dp"
+                android:maxLines="1"
+                android:paddingLeft="50dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:inputType="text"
+                android:hint="Enter Username"
+                android:textCursorDrawable="@drawable/cursor_color"
+                android:fontFamily="@font/aquire"
+                android:textSize="16dp"
+                android:textColorHint="@color/gray"
+                android:textColor="@color/blue"/>
+
+            <ImageView
+                android:id="@+id/batteryLogo"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/user_icon"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="45dp"
+            android:background="@drawable/blue_border_rounded_corner">
+
+            <EditText
+                android:id="@+id/edtPass"
+                android:layout_width="match_parent"
+                android:background="@android:color/transparent"
+                android:layout_height="200dp"
+                android:maxLines="1"
+                android:paddingLeft="50dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:inputType="textPassword"
+                android:hint="Enter Password"
+                android:textCursorDrawable="@drawable/cursor_color"
+                android:fontFamily="@font/aquire"
+                android:textSize="16dp"
+                android:textColorHint="@color/gray"
+                android:textColor="@color/blue"/>
+
+            <ImageView
+                android:id="@+id/ringtoneLogo"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/password_icon"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="45dp"
+            android:background="@drawable/blue_border_rounded_corner">
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="Submit"
+                android:letterSpacing="0.3"
+                android:paddingTop="10dp"
+                android:textColorHint="@color/gray"
+                android:paddingBottom="10dp"
+                android:fontFamily="@font/aquire_bold"
+                android:textSize="18dp"
+                android:background="@drawable/blue_fill__rounded_color"
+                android:textColor="@color/white"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="45dp"
+            android:background="@drawable/blue_border_rounded_corner">
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="Register"
+                android:letterSpacing="0.3"
+                android:paddingTop="10dp"
+                android:textColorHint="@color/gray"
+                android:paddingBottom="10dp"
+                android:fontFamily="@font/aquire_bold"
+                android:textSize="18dp"
+                android:background="@drawable/blue_fill__rounded_color"
+                android:textColor="@color/white"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
